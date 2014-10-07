@@ -59,6 +59,7 @@ body{
 
 .aside ul{
 	padding: 15px;
+
 }
 
 .aside ul li a{
@@ -71,6 +72,7 @@ body{
 	font-weight: bold;
 }
 
+
 hr{
 margin-top: 10px;
 margin-bottom: 10px;
@@ -78,8 +80,21 @@ border: 0;
 border-top: 1px solid #B8C0C0;
 }
 
-.menu-forms{
-	border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 10px 3px #969696;
-	box-shadow: 1px 1px 10px 3px #969696;
+
+
+form, .form{
+	padding: 15px;
+}
+
+input,label,textarea,button,select{
+	margin: 5px;
+}
+
+.btn{
+	color: white;
+	font-weight: bold;
+	background: #1a8272; /* Old browsers */
+	background: -webkit-linear-gradient(#1a8272 0%, #168589 77%, #539b99 100%);
+	background: linear-gradient(#1a8272 0%, #168589 77%, #539b99 100%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */
+}
 }
